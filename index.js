@@ -54,8 +54,8 @@ if(val1!=''&&val2!=''&&val3!=''){
     
 }
 
-play.forEach((xxx)=>{
-    xxx.addEventListener('click',()=>{
+play.forEach((e)=>{
+    e.addEventListener('click',()=>{
         ticTac.forEach((box)=>{
             box.disabled=false;
             msg.innerText='';
